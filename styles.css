@@ -1,1 +1,52 @@
 /*  your css code here. If applicable */
+/* styles.css */
+body {
+    background-color: rgb(204, 204, 204);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration-line: none;
+    color: #0073b1;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.player_one, .player_two {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+audio, video {
+    width: 100%;
+    border-radius: 8px;
+}
